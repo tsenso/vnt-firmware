@@ -1,3 +1,6 @@
 [submodule "vnt-micropython"]
 	path = vnt-micropython
 	url = git@github.com:tsenso/vnt-micropython.git
+[submodule "vnt-esp-idf"]
+	path = vnt-esp-idf
+	url = git@github.com:tsenso/vnt-esp-idf.git
