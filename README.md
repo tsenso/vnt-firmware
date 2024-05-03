@@ -17,7 +17,7 @@ make -C vnt-micropython/mpy-cross
 Then to build MicroPython for the ESP32 run:
 
 ```bash
-$ cd ports/esp32
-$ make submodules
-$ make
+cd vnt-micropython/ports/esp32
+make submodules
+make BOARD=M5STACK_FIRE USER_C_MODULES=../../../../vnt-ili9342c-mpy/src/micropython.cmake FROZEN_MANIFEST=../../../../../../vnt-ili9342c-mpy/manifest.py
 ```
